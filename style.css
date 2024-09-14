@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap');
+
+
+html,
+body {
+	margin: 0px;
+	height: 100vh;
+    width: 100vw;
+    user-select: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+@font-face {
+	font-family: 'font';
+	src: url(font.otf);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: 'font';
+}
+
+.textui{
+    width: 30%;
+    height: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5%;
+
+}
+
+.key{
+    color: white;
+    background-color: rgba(20, 20, 20, 0.617);
+    width: 7%;
+    height: 70%;
+    border-radius: 10%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 35px rgb(20, 20, 20);
+    font-size: 1.5vw;
+    font-weight: 600;
+    
+}
+
+.text{
+    font-size: 1.3vw;
+    color: white;
+    font-weight:250;
+}
